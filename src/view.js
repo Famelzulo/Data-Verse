@@ -1,4 +1,4 @@
-export const renderItems = (data) => add {
+export const renderItems = (data) =>  {
   //for (let i = 0; i < data.length; i++)
   
   let itemsHTML = '';
