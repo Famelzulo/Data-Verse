@@ -361,16 +361,16 @@ export default [
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
+    "id": "Assembler",
+    "name": "Assembler",
+    "shortDescription": "Assembler es un lenguaje de programación de bajo nivel que proporciona una representación simbólica de las instrucciones de máquina.",
+    "description": "Assembler es un lenguaje de programación de bajo nivel utilizado para escribir programas directamente en el lenguaje de máquina de un ordenador. Aunque es complejo y propenso a errores, Assembler ofrece un control preciso sobre el hardware y es necesario para tareas de programación de sistemas y desarrollo de controladores. Su sintaxis específica de la arquitectura y su naturaleza cercana al hardware lo hacen adecuado para programadores con conocimientos avanzados en informática y sistemas embebidos.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "imagepath" : "C:\Users\USUARIO\Documents\GitHub\Data-Verse\src\images\24A Assembler.jpg",
     "facts": {
       "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+      "creator": "",
+      "companiesUsingit": ["Intel","IBM"]
     },
     "extraInfo": {
       "imageSource": ""
