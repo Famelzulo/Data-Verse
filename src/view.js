@@ -37,7 +37,9 @@ export const renderItems = (data) => {
     //<img src="pic_trulli.jpg"/>
     const image = document.createElement("img");
     image.src = "https://png.pngtree.com/background/20230524/original/pngtree-sad-pictures-for-desktop-hd-backgrounds-picture-image_2705986.jpg";
+    //image.src = "image/python.jpg";
 
+     //image.path = "image/python.jpg"
     // image.setAttribute textContent = languaje.creator;
 
     // agrega los elementos creados

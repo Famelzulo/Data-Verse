@@ -192,172 +192,165 @@ export default [
   }
 },
 {
-  "id": "radia-perlman",
-  "name": "Radia Perlman",
-  "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-  "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
+  "id": "Haskell",
+  "name": "Haskell",
+  "shortDescription": "Haskell es un lenguaje de programación funcional conocido por su elegancia y enfoque en la programación declarativa.",
+  "description": "Haskell es un lenguaje de programación funcional conocido por su elegancia y enfoque en la programación declarativa. Su sistema de tipos estático y sólido, junto con su énfasis en la inmutabilidad y la recursión, lo convierten en una herramienta poderosa para el desarrollo de software robusto y seguro. Ampliamente utilizado en aplicaciones financieras, científicas y de inteligencia artificial, Haskell se destaca por su capacidad para expresar ideas de manera concisa y precisa. Su énfasis en la pureza funcional y la evaluación perezosa lo hace ideal para la creación de algoritmos eficientes y escalables.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
   "facts": {
-    "yearOfBirth": "1951",
-    "birthPlace": "Portsmouth, Estados Unidos",
-    "mainField": "Ciencia de la Computación"
+    "yearOfBirth": "1990",
+    "creator": "Comite Haskell",
+    "companiesUsingIt": ["Facebook" , "Standard Chartered"]
   },
   "extraInfo": {
     "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
   }
 },
 {
-  "id": "shafi-goldwasser",
-  "name": "Shafi Goldwasser",
-  "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-  "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
+  "id": "Perl",
+  "name": "Perl",
+  "shortDescription": "Perl es un lenguaje de programación reconocido por su robusto procesamiento de texto y expresiones regulares.",
+  "description": "Perl es un lenguaje de programación reconocido por su robusto procesamiento de texto y expresiones regulares. Con una sintaxis versátil y poderosas capacidades para manipular cadenas de caracteres, Perl es ampliamente utilizado en tareas de análisis de datos, desarrollo web y administración de sistemas. Su flexibilidad y eficiencia en el manejo de texto lo convierten en una herramienta invaluable para la automatización de tareas y el procesamiento de archivos. Perl es apreciado por su capacidad para abordar problemas complejos relacionados con el procesamiento de texto de manera rápida y efectiva.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
   "facts": {
-    "yearOfBirth": "1958",
-    "birthPlace": "Nueva York, Estados Unidos",
-    "mainField": "Ciencia de la Computación"
+    "yearOfBirth": "1987",
+    "creator": " Larry Wall",
+    "companiesUsingIt": ["Amazon","Booking","IMdB"]
   },
   "extraInfo": {
     "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
   }
 },
 {
-  "id": "chien-shiung-wu",
-  "name": "Chien-Shiung Wu",
-  "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-  "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
+  "id": "Lua",
+  "name": "Lua",
+  "shortDescription": "Lua es un lenguaje de programación ligero y versátil, apreciado por su simplicidad y eficiencia.",
+  "description": "Lua es un lenguaje de programación ligero y versátil, apreciado por su simplicidad y eficiencia. Con una rápida ejecución y fácil integración en otros sistemas, Lua se destaca en el desarrollo de scripts, juegos y sistemas embebidos. Su diseño minimalista y sintaxis flexible lo hacen accesible para programadores de todos los niveles. Lua es reconocido por su sólido soporte para la programación orientada a objetos y su capacidad para extender aplicaciones mediante la creación de módulos y bibliotecas personalizadas. Su comunidad activa y amplia documentación hacen de Lua una opción popular en una variedad de proyectos de software.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
   "facts": {
-    "yearOfBirth": "1912",
-    "yearOfDeath": "1997",
-    "birthPlace": "Liuhe, Taicang, China",
-    "mainField": "Física"
+    "yearOfBirth": "1993",
+    "creator": "Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes",
+    "companiesUsingIt": ["Blizzard Entertainment", "Adobe"]
   },
   "extraInfo": {
     "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
   }
 },
 {
-  "id": "hedy-lamarr",
-  "name": "Hedy Lamarr",
-  "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-  "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
+  "id": "Dart",
+  "name": "Dart",
+  "shortDescription": "Dart es un lenguaje de programación versátil y moderno, desarrollado por Google, conocido por su eficiencia y facilidad de uso.",
+  "description": "Dart es un lenguaje de programación versátil y moderno, desarrollado por Google, conocido por su eficiencia y facilidad de uso. Diseñado para la creación de aplicaciones móviles, web y de escritorio, Dart ofrece un sistema de tipos fuerte y opciones de compilación tanto a JavaScript como a código nativo. Su sintaxis clara y concisa, junto con su robusto conjunto de bibliotecas, lo convierten en una opción popular entre los desarrolladores. Dart es apreciado por su rendimiento, productividad y capacidad para construir aplicaciones escalables y de alto rendimiento",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
   "facts": {
-    "yearOfBirth": "1914",
-    "yearOfDeath": "2000",
-    "birthPlace": "Viena, Austria",
-    "mainField": "Actuación, Física"
+    "yearOfBirth": "2011",
+    "creator": "Google",
+    "companiesUsingIt": ["Google", "Alibaba"]
   },
   "extraInfo": {
     "imageSource": "https://www.sparkfun.com/news/6147"
   }
 },
 {
-  "id": "maria-goeppert-mayer",
-  "name": "Maria Goeppert Mayer",
-  "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-  "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
+  "id": "Elixir",
+  "name": "Elixir",
+  "shortDescription": "Elixir es un lenguaje de programación funcional y concurrente, construido sobre la plataforma de Erlang.",
+  "description": "Elixir es un lenguaje de programación funcional y concurrente, construido sobre la plataforma de Erlang, valorado por su escalabilidad y tolerancia a fallos. Su sintaxis clara y expresiva facilita el desarrollo de sistemas distribuidos y tolerantes a fallos, convirtiéndolo en una opción ideal para aplicaciones en tiempo real. La concurrencia y el paralelismo son pilares fundamentales de Elixir, lo que lo hace perfecto para sistemas que requieren alta disponibilidad y rendimiento.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
   "facts": {
-    "yearOfBirth": "1906",
-    "yearOfDeath": "1972",
-    "birthPlace": "Kattowitz, Alemania",
-    "mainField": "Física"
+    "yearOfBirth": "2011",
+    "creator": "Jose Valim",
+    "companiesUsingIt": ["Discord", "Bleacher Report"]
   },
   "extraInfo": {
     "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
   }
 },
 {
-  "id": "lise-meitner",
-  "name": "Lise Meitner",
-  "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-  "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
+  "id": "Groovy",
+  "name": "Groovy",
+  "shortDescription": "Groovy es un lenguaje de programación dinámico y orientado a objetos diseñado para la plataforma Java.",
+"description": "Groovy es un lenguaje de programación dinámico y orientado a objetos diseñado para la plataforma Java. Con una sintaxis similar a Java pero menos restrictiva, Groovy ofrece mayor flexibilidad y productividad en el desarrollo de aplicaciones empresariales y web. Su integración perfecta con bibliotecas Java existentes y su capacidad para escribir código conciso y legible lo hacen popular entre los desarrolladores que buscan una alternativa más ágil y dinámica para Java.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
   "facts": {
-    "yearOfBirth": "1878",
-    "yearOfDeath": "1968",
-    "birthPlace": "Viena, Austria",
-    "mainField": "Física"
+    "yearOfBirth": "2003",
+    "creator": "James Strachan",
+    "companiesUsingIt": ["Slack","IBM","Netflix","Linkedin"]
   },
   "extraInfo": {
     "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
   }
 },
 {
-  "id": "sau-lan-wu",
-  "name": "Sau Lan Wu",
-  "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-  "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
+  "id": "COBOL",
+  "name": "COBOL",
+  "shortDescription": "COBOL (Common Business-Oriented Language) es un lenguaje de programación ampliamente utilizado en aplicaciones comerciales y financieras.",
+  "description": "COBOL (Common Business-Oriented Language) es un lenguaje de programación ampliamente utilizado en aplicaciones comerciales y financieras. A pesar de su antigüedad, COBOL sigue siendo relevante hoy en día, especialmente en sistemas heredados y mainframes. Con una sintaxis estructurada y legible, COBOL se centra en el procesamiento de datos empresariales y la gestión de transacciones, proporcionando un entorno estable y confiable para aplicaciones críticas de negocios.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
   "facts": {
     "yearOfBirth": "1940",
-    "birthPlace": "Hong Kong, China",
-    "mainField": "Física de Partículas"
+    "creator": " Comité de la Conferencia de Organizaciones de Procesamiento de Datos (COPD)",
+    "companiesUsingIt": ["IBM","Fujitsu"]
   },
   "extraInfo": {
     "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
   }
 },
 {
-  "id": "jocelyn-bell-burnell",
-  "name": "Jocelyn Bell Burnell",
-  "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-  "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
+  "id": "Prolog",
+  "name": "Prolog",
+  "shortDescription": "Prolog es un lenguaje de programación lógica utilizado principalmente en inteligencia artificial y procesamiento de lenguaje natural. ",
+  "description": "Prolog es un lenguaje de programación lógica utilizado principalmente en inteligencia artificial y procesamiento de lenguaje natural. Basado en la lógica de predicados, Prolog permite expresar relaciones y reglas de manera declarativa, facilitando la resolución de problemas complejos de búsqueda y razonamiento. Su capacidad para inferir hechos y reglas lo hace adecuado para la creación de sistemas expertos y aplicaciones de lógica difusa, convirtiéndolo en una herramienta poderosa para el desarrollo de aplicaciones inteligentes.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
   "facts": {
-    "yearOfBirth": "1943",
-    "birthPlace": "Belfast, Reino Unido",
-    "mainField": "Astronomía, Astrofísica"
+    "yearOfBirth": "1972",
+    "creator": "Alain Colmerauer, Robert Kowalski",
+    "companiesUsingIt": ["Siemens", "SWI-Prolog Solutions"]
   },
   "extraInfo": {
     "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
   }
 },
 {
-  "id": "dorothy-crowfoot-hodgkin",
-  "name": "Dorothy Crowfoot Hodgkin",
-  "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-  "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
+  "id": "Ada",
+  "name": "Ada",
+  "shortDescription": "Ada es un lenguaje de programación estructurado y orientado a objetos, diseñado originalmente para aplicaciones críticas en defensa y aviación. ",
+  "description": "Ada es un lenguaje de programación estructurado y orientado a objetos, diseñado originalmente para aplicaciones críticas en defensa y aviación. Con una sintaxis clara y precisa, Ada se centra en la seguridad, la fiabilidad y el rendimiento, proporcionando un entorno robusto para el desarrollo de sistemas críticos. Su fuerte sistema de tipos y su énfasis en la verificación estática de errores lo hacen adecuado para aplicaciones de misión crítica donde la seguridad y la precisión son fundamentales.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
   "facts": {
     "yearOfBirth": "1910",
-    "yearOfDeath": "1994",
-    "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-    "mainField": "Química"
+    "creator": "Jean Ichbiah por encargo del Departamento de Defensa de los Estados Unidos.",
+    "companiesUsingIt": ["Lockheed Martin", "General Dynamics"]
   },
   "extraInfo": {
     "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
   }
 },
 {
-  "id": "marie-curie",
-  "name": "Marie Curie",
-  "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-  "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
+  "id": "Lisp",
+  "name": "Lisp",
+  "shortDescription": "Lisp es un lenguaje de programación funcional y dinámico,",
+  "description": "Lisp es un lenguaje de programación funcional y dinámico, conocido por su poderoso sistema de macro y su enfoque en la manipulación de listas. Desarrollado en la década de 1950, Lisp ha influido en muchos otros lenguajes de programación y es ampliamente utilizado en inteligencia artificial, procesamiento de lenguaje natural y desarrollo de software científico. Su flexibilidad y expresividad lo convierten en una opción popular para proyectos que requieren alta productividad y adaptabilidad.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
   "facts": {
-    "yearOfBirth": "1867",
-    "yearOfDeath": "1934",
-    "birthPlace": "Varsovia, Polonia",
-    "mainField": "Física y Química"
+    "yearOfBirth": "1858",
+    "creator": "John McCarthy",
+    "companiesUsingIt": ["Google", "SpaceX"]
   },
   "extraInfo": {
     "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
   }
 },
 {
-  "id": "marjory-stephenson",
-  "name": "Marjory Stephenson",
-  "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-  "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
+  "id": "COOL (Classroom Object-Oriented Language)",
+  "name": "COOL (Classroom Object-Oriented Language)",
+  "shortDescription": "Cool (Classroom Object-Oriented Language) es un lenguaje de programación diseñado para la enseñanza de conceptos de programación",
+  "description": "Cool (Classroom Object-Oriented Language) es un lenguaje de programación diseñado para la enseñanza de conceptos de programación orientada a objetos. Inspirado en Java, Cool simplifica los conceptos fundamentales de la programación orientada a objetos y proporciona una plataforma para experimentar con conceptos como herencia, polimorfismo y encapsulación. Su sintaxis simple y su enfoque en la enseñanza lo hacen adecuado para estudiantes y educadores que desean aprender o enseñar programación orientada a objetos de manera efectiva.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
   "facts": {
-    "yearOfBirth": "1885",
-    "yearOfDeath": "1948",
-    "birthPlace": "Londres, Reino Unido",
-    "mainField": "Química, Microbiología, Bioquímica"
+    "yearOfBirth": "1995",
+    "creator": "Alex Aiken",
+    "companiesUsingIt": ["Universidad de Stanford"]
   },
   "extraInfo": {
     "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
@@ -372,7 +365,7 @@ export default [
   "imagepath" : "C:/Users/USUARIO/Documents/GitHub/Data-Verse/src/images/24A Assembler.jpg",
   "facts": {
     "yearOfBirth": "1920",
-    "creator": "",
+    "creator": "Maurice Wilkes",
     "companiesUsingit": ["Intel","IBM"]
   },
   "extraInfo": {
