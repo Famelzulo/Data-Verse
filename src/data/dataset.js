@@ -3,13 +3,14 @@ export default [
     "id": "Python",
     "name": "Python.",
     "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
+    "description": "Python es como un asistente versátil en la programación, siempre dispuesto a ayudarte en cualquier tarea. Su amigable sintaxis y su facilidad de aprendizaje lo convierten en el lenguaje perfecto para iniciarse en la programación y para profesionales experimentados por igual. Desde la creación de simples scripts hasta proyectos complejos de inteligencia artificial, Python brinda herramientas poderosas para una amplia gama de aplicaciones. Además, su comunidad activa y su extensa biblioteca de módulos proporcionan un respaldo sólido, permitiendo a los desarrolladores encontrar soluciones rápidas y eficientes para cualquier desafío que puedan enfrentar en sus proyectos.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "imagepath" : "../../images/B Python.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "yearOfBirth": "1991",
+      "yearOfDeath": "vigente",
+      "birthPlace": "Paises Bajos",
+      "mainField": "Google, Facebook"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
@@ -360,16 +361,16 @@ export default [
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
+    "id": "Assembler",
+    "name": "Assembler",
+    "shortDescription": "Assembler es un lenguaje de programación de bajo nivel que proporciona una representación simbólica de las instrucciones de máquina.",
+    "description": "Assembler es un lenguaje de programación de bajo nivel utilizado para escribir programas directamente en el lenguaje de máquina de un ordenador. Aunque es complejo y propenso a errores, Assembler ofrece un control preciso sobre el hardware y es necesario para tareas de programación de sistemas y desarrollo de controladores. Su sintaxis específica de la arquitectura y su naturaleza cercana al hardware lo hacen adecuado para programadores con conocimientos avanzados en informática y sistemas embebidos.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "imagepath" : "C:\Users\USUARIO\Documents\GitHub\Data-Verse\src\images\24A Assembler.jpg",
     "facts": {
       "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+      "creator": "",
+      "companiesUsingit": ["Intel","IBM"]
     },
     "extraInfo": {
       "imageSource": ""
