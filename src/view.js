@@ -1,59 +1,79 @@
 export const renderItems = (data) => {
   console.log(data);
   // Aquí comienza tu código y puedes retornar lo que tu necesites
-  // template sugerido en punto 4 
 
-  // <dl itemscope itemtype="WomenInTech">
-  //   <img src="URL_DE_LA_IMAGEN_GENERADA" alt="Ada Lovelace" />
-  //   <dt>Nombre:</dt><dd itemprop="name">Ada Lovelace</dd>
+  // <dl itemscope itemtype="Lenguajes de programacion">
+  //   <img src="" />
+  //   <dt>Nombre:</dt><dd itemprop="name">Phyton</dd>
+  //   <dt>short Descripción:</dt><dd itemprop="short description">Pionera de la informática, fue la primera programadora.</dd>
   //   <dt>Descripción:</dt><dd itemprop="description">Pionera de la informática, fue la primera programadora.</dd>
-  //   <dt>Año de nacimiento:</dt><dd itemprop="yearOfBirth">1843</dd>
-  //   <dt>Lugar de nacimiento:</dt><dd itemprop="placeOfBirth">London, England</dd>
-  //   <dt>Campo de desempeño:</dt><dd itemprop="mainField">Computer Science</dd>
+  //   <dt>Año de creacion:</dt><dd itemprop="yearOfBirth">1843</dd>
+  //   <dt>Creador:</dt><dd itemprop="creator">London, England</dd>
+  //   <dt>Comanpanias que lo usan:</dt><dd itemprop="companieUsingIt">Computer Science</dd>
   // </dl>
-
   // seria DL
 
   const container = document.createElement("div");
-  console.log(data);
+ 
+  // creamos los elemntos
 
-  data.forEach(languaje => {
-    // seria elemento dl
-    const languajeContainer = document.createElement("dl");
-
-    // crea elemento para el Nombre
-    const titleElement = document.createElement("dt");
-    titleElement.textContent = languaje.name;
-
-    // crea elemento para shortDescript   
-    const shortDescription = document.createElement("li");
-    shortDescription.textContent = languaje.description;
-
-    // crea elemento para Creador
-    const creator = document.createElement("dt");
-    creator.textContent = languaje.creator;
-
-    // crea elemento para imagen
-    //<img src="pic_trulli.jpg"/>
-    const image = document.createElement("img");
-    image.src = "https://png.pngtree.com/background/20230524/original/pngtree-sad-pictures-for-desktop-hd-backgrounds-picture-image_2705986.jpg";
-    //image.src = "image/python.jpg";
-
-     //image.path = "image/python.jpg"
-    // image.setAttribute textContent = languaje.creator;
-
-    // agrega los elementos creados
-    languajeContainer.appendChild(titleElement);
-    languajeContainer.appendChild(shortDescription);
-    languajeContainer.appendChild(creator);
-    languajeContainer.appendChild(image);
-
-    container.appendChild(languajeContainer);
-  });
-
-  // ubica elemtno root
-  const rootElement = document.getElementById("root");
-  rootElement.appendChild(container);
-
+    data.forEach(language => {
+      const languageContainer = document.createElement("dl");
+  
+      // Crea un elemento para la imagen del lenguaje
+      const image = document.createElement("img");
+      image.src = language.imageUrl;
+  
+      // Crea un elemento para el Nombre
+      const titleTerm = document.createElement("dt");
+      titleTerm.textContent = "Nombre:";
+      const titleDefinition = document.createElement("dd");
+      titleDefinition.textContent = language.name;
+  
+      // Crea un elemento para el Creador
+      const creatorTerm = document.createElement("dt");
+      creatorTerm.textContent = "Creador:";
+      const creatorDefinition = document.createElement("dd");
+      creatorDefinition.textContent = language.creator;
+  
+      // Crea un elemento para shortDescription
+      const shortDescriptionTerm = document.createElement("dt");
+      shortDescriptionTerm.textContent = "Descripción corta:";
+      const shortDescriptionDefinition = document.createElement("dd");
+      shortDescriptionDefinition.textContent = language.shortDescription;
+  
+      // Crea un elemento para la Descripción
+      const descriptionTerm = document.createElement("dt");
+      descriptionTerm.textContent = "Descripción:";
+      const descriptionDefinition = document.createElement("dd");
+      descriptionDefinition.textContent = language.description;
+  
+      // Crea un elemento para el Año de Creación
+      const yearOfBirthTerm = document.createElement("dt");
+      yearOfBirthTerm.textContent = "Año de creación:";
+      const yearOfBirthDefinition = document.createElement("dd");
+      yearOfBirthDefinition.textContent = language.yearOfBirth;
+  
+      // Agrega los elementos creados al contenedor del lenguaje
+      languageContainer.appendChild(image);
+      languageContainer.appendChild(titleTerm);
+      languageContainer.appendChild(titleDefinition);
+      languageContainer.appendChild(creatorTerm);
+      languageContainer.appendChild(creatorDefinition);
+      languageContainer.appendChild(shortDescriptionTerm);
+      languageContainer.appendChild(shortDescriptionDefinition);
+      languageContainer.appendChild(descriptionTerm);
+      languageContainer.appendChild(descriptionDefinition);
+      languageContainer.appendChild(yearOfBirthTerm);
+      languageContainer.appendChild(yearOfBirthDefinition);
+  
+      container.appendChild(languageContainer);
+    });
+  
+    const rootElement = document.getElementById("root");
+    rootElement.appendChild(container);
   return 'example';
-};
+  };
+  
+ 
+ 
